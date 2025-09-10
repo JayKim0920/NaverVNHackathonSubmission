@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import useEvents from '../hooks/useEvents';
 import dayjs from 'dayjs';
 import 'dayjs/locale/ko';

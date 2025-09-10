@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Calendar from './components/Calendar';
 import DayTimeline from './components/DayTimeline';
 import ProjectView from './components/ProjectView';

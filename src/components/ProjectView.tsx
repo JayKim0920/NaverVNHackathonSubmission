@@ -1,4 +1,3 @@
-import React from 'react';
 import useEvents from '../hooks/useEvents';
 import type { Event } from '../types/event';
 import dayjs from 'dayjs';
