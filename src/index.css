@@ -1,16 +1,36 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --primary-color: #3f51b5; /* A thick blue to give similar atmosphere as NAVER green */
+  --primary-light: #7986cb;
+  --secondary-color: #f44336; /* Focus color */
+  --background-color: #f0f2f5; /* Bright grey for background */
+  --surface-color: #ffffff; /* Background for cards and modal */
+  --text-color: #212121;
+  --text-secondary-color: #757575;
+  --border-color: #e0e0e0;
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+body {
+  margin: 0;
+  font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
 }
 
 a {
